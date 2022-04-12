@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 
 import static java.util.Comparator.comparing;
 
-public class Point{
+public class Point<T>{
     private int x;
 
     public int getY() {
